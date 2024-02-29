@@ -53,7 +53,7 @@ function DishCard({ data }) {
           height={300}
           width={300}
           src={
-            data.attributes.image.data.attributes.url
+            `${process.env.NEXT_PUBLIC_STRAPI_URL}${data.attributes.image.data.attributes.url}`
           }
           alt=""
         />
