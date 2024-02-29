@@ -48,7 +48,7 @@ function DishCard({ data }) {
     <div className="w-full md:w-1/2 lg:w-1/3 p-4">
 
       <div className="h-full bg-gray-100 rounded-2xl">
-        <Image
+        <img
           className="w-full rounded-2xl"
           height={300}
           width={300}
