@@ -106,7 +106,7 @@ export default function Cart() {
                 </div>
                 <button
                   onClick={() => (user ? cartRedirect() : loginRedirect())}
-                  className="inline-block w-full px-6 py-3 text-center font-bold text-white bg-emerald-500 hover:bg-emerald-601 transition duration-200 rounded-full"
+                  className="inline-block w-full px-6 py-3 text-center font-bold text-white bg-emerald-500 hover:bg-emerald-600 transition duration-200 rounded-full"
                 >
                   {user ? "Continue To Pay" : "Login to Order"}
                 </button>
