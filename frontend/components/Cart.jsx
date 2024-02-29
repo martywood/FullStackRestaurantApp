@@ -61,7 +61,7 @@ export default function Cart() {
       <div className="relative">
         <button
           onClick={() => setShowCart((prevState) => !prevState)}
-          className="absolute right-0 z-10 bg-emerald-500 text-white p-3 rounded-full hover:bg-yellow-500 items-center"
+          className="absolute right-0 z-10 bg-yellow-500 text-white p-3 rounded-full hover:bg-yellow-600 items-center"
         >
           <svg
             width="24"
