@@ -1,5 +1,5 @@
 const path = require("path");
-// require('dotenv').config();
+require('dotenv').config();
     
 const parse = require("pg-connection-string").parse;
 // console.log('hello', process.env.DATABASE_URL);
